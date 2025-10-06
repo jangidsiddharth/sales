@@ -14,7 +14,7 @@
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/source/blobs/Fact_Sales_1",
+			"blobPathBeginsWith": "/source/blobs/",
 			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/13cb5a24-e2b6-4b34-a645-b5ca81b491fc/resourceGroups/rg-sales/providers/Microsoft.Storage/storageAccounts/salsestorage",
