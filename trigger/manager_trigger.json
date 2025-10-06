@@ -19,8 +19,7 @@
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/13cb5a24-e2b6-4b34-a645-b5ca81b491fc/resourceGroups/rg-sales/providers/Microsoft.Storage/storageAccounts/salsestorage",
 			"events": [
-				"Microsoft.Storage.BlobCreated",
-				"Microsoft.Storage.BlobDeleted"
+				"Microsoft.Storage.BlobCreated"
 			]
 		}
 	}
