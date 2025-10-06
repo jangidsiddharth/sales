@@ -4,14 +4,7 @@
 		"description": "this trigger activate when the manager drop any kind of file in source then that file will be immedieatly copy into destination.",
 		"annotations": [],
 		"runtimeState": "Started",
-		"pipelines": [
-			{
-				"pipelineReference": {
-					"referenceName": "StorageActivity",
-					"type": "PipelineReference"
-				}
-			}
-		],
+		"pipelines": [],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/source/blobs/Fact_Sales_1.csv",
