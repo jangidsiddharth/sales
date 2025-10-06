@@ -5,11 +5,20 @@
 		"factoryName": {
 			"value": "adf-sales-proj"
 		},
+		"managerLinkedService_accountKey": {
+			"value": ""
+		},
 		"metadata_linked_service_accountKey": {
 			"value": ""
 		},
+		"managerLinkedService_properties_typeProperties_url": {
+			"value": "https://salsestorage.dfs.core.windows.net/"
+		},
 		"metadata_linked_service_properties_typeProperties_url": {
 			"value": "https://salsestorage.dfs.core.windows.net/"
+		},
+		"manager_trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/13cb5a24-e2b6-4b34-a645-b5ca81b491fc/resourceGroups/rg-sales/providers/Microsoft.Storage/storageAccounts/salsestorage"
 		}
 	}
 }
